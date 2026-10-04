@@ -1,0 +1,60 @@
+.imagem{
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+}
+
+.profissionais{ 
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.pagina1{
+    background-image: linear-gradient(to right, lightblue, lightpink);
+}
+
+
+.conteudop1{
+    text-align: justify;
+    text-align: center;
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#fundoprincipal{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 15px;
+    text-align: justify;
+    padding: 10px;
+    
+    margin: 50px;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgb(172, 68, 175); 
+}
+
+h2{
+    color: lightblue;
+}
+
+p{
+    color: rgb(117, 95, 99);
+}
+#tituloprincipal{
+    color: rgb(172, 68, 175);
+    text-align: center;
+}
+
+.h1{
+    color: goldenrod;
+}
+
+.destaque{
+    background-color: brown;
+}
