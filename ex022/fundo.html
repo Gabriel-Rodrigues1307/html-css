@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando propriedade Background image</title>
+
+    <style>
+        div.quadrado{
+            background-color: lightgrey;
+            border-color: 2px;
+            border-style: solid;
+            border-radius: 10px;
+            border-color: black;
+            height: 300px;
+            width: 300px;
+            margin: 10px;
+            display: inline-block;
+            
+        }
+
+        div#q1{
+            background-color: aqua;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+
+        div#q3{
+            background-image: url(imagens/pattern001.png);
+        }
+
+        body{
+            text-align: center;
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="quadrado" id="q1">
+
+    </div>
+        <div class="quadrado" id="q2">
+
+    </div>
+        <div class="quadrado" id="q3">
+
+    </div>
+</body>
+</html>
